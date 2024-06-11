@@ -1,35 +1,22 @@
-"use strict"; // treat all JS code as newer versions
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountCity = "Jaipur"
+let accountState;
 
-// alert(3 + 3)
-//we cannot use alert directly in the node js but can be used in the browse itself.
+// accountId = 2 // not allowed
 
-// code readabiliyt should be high.
-/*ex: console.log(3
-     +
-     3)
-     very example of readability.
-*/
 
-let name ="rohan"
-let age = 19
-let isLoggedIn = false
-let state = null // empty value representation
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
 
-// Data Types are below:
+console.log(accountId);
+
 /*
-Primitives data types:
-1. number => 2 to power 53
-2. bigint
-3. string => ""
-4. boolean => true/false
-5. null => standalone value
-6. undefined => undefined
-7. symbol => uniquely identify the components
-
-1. object: Data Type
-
+Prefer not to use var
+because of issue in block scope and functional scope
 */
-console.log(typeof "rohan")
-console.log(typeof age)
-console.log(typeof null) // output is object 
-console.log(typeof undefined) // output is undefined
+
+//table function is used to print variables declared in the code altogether.
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
