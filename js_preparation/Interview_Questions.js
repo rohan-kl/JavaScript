@@ -9,8 +9,8 @@ const forEachResult  = arr.forEach((ar,i)=>{
     arr[i] = ar +3;
 })
 console.log(forEachResult,arr);
-//1. Map returns the new array with modifications(if) while forEach does not return anything. We can modify the current array with the help of forEach method.
-//2. As map returns the new array, we can apply more methods to the end of the map like filter, reduce, etc, known as "chaining". While forEach does not contain these type of features as it does not return anything.
+//i) Map returns the new array with modifications(if) while forEach does not return anything. We can modify the current array with the help of forEach method.
+//ii) As map returns the new array, we can apply more methods to the end of the map like filter, reduce, etc, known as "chaining". While forEach does not contain these type of features as it does not return anything.
 
 
 //2. Output based questions based on map,filter and reduce
